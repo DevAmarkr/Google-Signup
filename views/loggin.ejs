@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Loggin page</title>
+    <style media="screen">
+    *{
+      margin:0;
+      padding:0;
+    }
+    html,body{
+      font-size: 10px;
+    }
+      header{
+        background-color:black;
+        height:10em;
+
+      }
+      ul{
+        display: flex;
+         list-style: none;
+
+      }
+      li{
+        margin-left: 2em;
+        position:relative;
+      }
+      a{
+        padding: 1em;
+        font-size: 2em;
+        text-decoration: none;
+        align-content: center;
+        color: #c70039
+
+      }
+      a:hover{
+        text-decoration: underline;
+        animation:moveRight 2s ease;
+      }
+      .google{
+        height:5px;
+        position:absolute;
+        left:2em;
+        top:7em;
+        padding-top:2px;
+        width:12em;
+        text-align:center;
+        background:#ff0000;
+        color:#fff;
+
+
+      }
+      @@keyframes moveRight {
+        0%{
+          opacity:0;
+          transform:translateX(-50%)
+        }
+        100%{
+          opacity:1;
+          transform:translateX(100%)
+        }
+      }
+    </style>
+  </head>
+  <body>
+     <header>
+       <ul>
+         <li><a href="/">Home</a></li>
+          <li><a href="/auth/loggin">loggin</a></li>
+           <li><a href="/auth/loggout">loggout</a></li>
+       </ul>
+     </header>
+     <main>
+       <a class="google" href="/auth/google">sign up with google</a>
+     </main>
+  </body>
+</html>
