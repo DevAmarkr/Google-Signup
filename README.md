@@ -1,12 +1,18 @@
-# Google-oauth-signup
-let user signup with google api
-This is a Node application that let user sign up or sign in with google authenticatio
-For achieving this Task some technolgy is used 
-1.Node
-2.Express
-3.mongoose
-4.Mlab for online Mongodb database
-5.ejs templates for server side rendering
-6.Passport.js for authentication
-7.passport-google-oauth20 for google authentication
-
+# Google-oauth-signup 
+## This Project is based on user can sign up and sign in with Google 
+----------------------------------------------------------------------------
+## Technology that i have used for building this project
+* Node.js
+* Express.js
+* Mongoose
+* [Mlab](https://mlab.com/databases/amar-oauth) for Online mongodb database 
+* Ejs for server side rendering
+* Passprt.js for authentication
+----------------------------------------------------------------------------
+## Npm that we need for this project
+* npm i or install node
+* npm i or install express
+* npm i or install ejs
+* npm i or install mongoose 
+* npm i or install passprort
+* npm i or install passprort-google-oauth20
